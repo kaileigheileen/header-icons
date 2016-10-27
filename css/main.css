@@ -13,11 +13,23 @@ h1 {
   text-align: center;
 }
  h2 {
-   font-size: 1.125rem;
-   display: block;
-   text-align: center;
+  font-size: 1.125rem;
+  display: block;
+  text-align: center;
  }
 
 .nav {
   text-align: center;
+}
+
+.nav a {
+  display: inline-block;
+  margin: 0 0 .7em;
+  padding: .5em;
+  background-color: #d05c2e;
+  text-align: center;
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: white;
+  float: left;
 }
