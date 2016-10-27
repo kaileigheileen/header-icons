@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
   line-height: 1.5;
 }
 
@@ -11,25 +11,40 @@ html {
 h1 {
   font-size: 2rem;
   text-align: center;
+  background-color: #d05c2e;
+  margin: 0;
+  color: white;
 }
- h2 {
+h2 {
   font-size: 1.125rem;
   display: block;
   text-align: center;
- }
+}
 
 .nav {
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .nav a {
-  display: inline-block;
-  margin: 0 0 .7em;
-  padding: .5em;
+  display: block;
+  margin: 0;
+  padding: 0;
   background-color: #d05c2e;
   text-align: center;
   font-size: 1.125rem;
   text-decoration: none;
   color: white;
+}
+
+.nav li {
   float: left;
+  width: 33.333%;
+  list-style-type: none;
+  border-color: #a63f38;
+}
+
+body {
+  margin: 0;
 }
